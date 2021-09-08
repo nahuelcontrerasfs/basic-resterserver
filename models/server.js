@@ -1,6 +1,7 @@
 // CONTINUAR VIDEO 8
 const express = require('express');
 const cors = require('cors');
+const { dbConnection } = require('../database/config');
 
 class Server {
     
@@ -10,11 +11,18 @@ class Server {
         this.port = process.env.PORT;
         this.usersPath = '/api/users';
 
+        // CONECCION A DB
+        this.connectDB();
+
         // MIDDLEWARES
         this.middlewares();
 
         // RUTAS DE MI APP
         this.routes();
+    }
+
+    async connectDB() {
+        await dbConnection();
     }
 
     middlewares() {
