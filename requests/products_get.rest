@@ -1,0 +1,7 @@
+GET http://localhost:8080/api/products
+
+###
+GET http://localhost:8080/api/products?limit=5&from=5
+
+###
+GET http://localhost:8080/api/products/614b8f616c78452b9f960bed

@@ -1,0 +1,7 @@
+POST http://localhost:8080/api/categories
+Content-Type: application/json
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MTM5MTlmZTM3ZWFjODYxZTUwZmNhNzYiLCJpYXQiOjE2MzI0MTk3MjksImV4cCI6MTYzMjQzNDEyOX0.A_j_-cd4touN_UZLe6s-uMFWS4zDVIfv07U8aHuvOuY
+
+{
+    "name": "JUGOS"
+}

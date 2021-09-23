@@ -1,0 +1,7 @@
+PUT http://localhost:8080/api/products/614b8f616c78452b9f960bed
+Content-Type: application/json
+x-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1aWQiOiI2MTM5MTlmZTM3ZWFjODYxZTUwZmNhNzYiLCJpYXQiOjE2MzIzNDEwMDksImV4cCI6MTYzMjM1NTQwOX0.XKcaBRwmJ9mSbIz1xcLOyxA2R-YRmhAVbJtH5q9zMqY
+
+{
+    "name": "PEPAS"
+}

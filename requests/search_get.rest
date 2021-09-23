@@ -1,0 +1,13 @@
+GET http://localhost:8080/api/search/categories/61423271c1a19cb5479e773a
+
+###
+GET http://localhost:8080/api/search/products/ca
+
+###
+GET http://localhost:8080/api/search/roles/barulio
+
+###
+GET http://localhost:8080/api/search/users/@gmail
+
+###
+GET http://localhost:8080/api/search/garulio/barulio
