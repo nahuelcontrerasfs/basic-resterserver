@@ -1,3 +1,5 @@
 node_modules/
 machete.txt
 .env
+uploads/products/**.*
+uploads/users/**.*

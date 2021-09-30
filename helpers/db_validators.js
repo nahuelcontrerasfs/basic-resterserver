@@ -40,8 +40,18 @@ const isValidUser = async ( id ) => {
     }
 }
 
+const isValidCollection = ( collection = '', collections = [] ) => {
+
+    const isIncluded = collections.includes( collection );
+    if(!isIncluded) {
+        throw new Error(`${collection} no es una colección permitida. Las colecciones posibles son: ${collections}`);
+    }
+    return true;
+}
+
 module.exports = {
     isValidCategory,
+    isValidCollection,
     isValidEmail,
     isValidProduct,
     isValidRole,
